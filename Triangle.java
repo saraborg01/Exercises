@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public class Triangle extends Polygon{
-    public Triangle(Point centerPoint) {
-        super(centerPoint);
+    public Triangle(int x, int y) {
+        super(x,y);
     }
     @Override
     public void paint(Graphics g){

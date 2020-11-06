@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public class Rectangle extends Polygon{
-    public Rectangle(Point centerPoint) {
-        super(centerPoint);
+    public Rectangle(int x, int y) {
+        super(x,y);
     }
 
     @Override

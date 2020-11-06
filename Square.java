@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public class Square extends Polygon {
-    public Square(Point centerPoint) {
-        super(centerPoint);
+    public Square(int x, int y) {
+        super(x,y);
     }
 
     @Override
