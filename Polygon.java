@@ -31,18 +31,12 @@ public class Polygon {
     }
 
     public void paintSquare(Graphics g){
-        Point currentCenter = getCenterPoint();
-        g.drawRect(currentCenter.x -10, currentCenter.y -10, 20, 20);
+
     }
     public void paintTriangle(Graphics g){
-        Point currentCenter = getCenterPoint();
-        g.drawLine(currentCenter.x, currentCenter.y-10, currentCenter.x-10, currentCenter.y+10);
-        g.drawLine(currentCenter.x-10, currentCenter.y+10,
-                currentCenter.x+10, currentCenter.y+10);
-        g.drawLine(currentCenter.x+10, currentCenter.y+10, currentCenter.x, currentCenter.y-10);
+
     }
     public void paintRectangle(Graphics g){
-        Point currentCenter = getCenterPoint();
-        g.drawRect(currentCenter.x -20, currentCenter.y -10, 40, 20);
+
     }
 }
