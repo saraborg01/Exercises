@@ -8,9 +8,9 @@ public class DrawPolygons extends Component{
     public DrawPolygons(){
         polygons = new ArrayList<>(10);
 
-        polygons.add(new Polygon("square", new Point(100,100)));
-        polygons.add(new Polygon("triangle", new Point(150,150)));
-        polygons.add(new Polygon("rectangle", new Point(100,200)));
+        polygons.add(new Square(new Point(100,100)));
+        polygons.add(new Triangle(new Point(150,150)));
+        polygons.add(new Rectangle(new Point(100,200)));
 
     }//constructor
 
